@@ -1,0 +1,47 @@
+.adminaside{
+    width:200px;
+    height: 100vh;
+    border-right:1px solid black;
+    background-color: #444444;
+}
+.adminmain{
+    display: flex;
+}
+.admincenter{
+    width: 100%;
+    background-color: #acacac;
+}
+.adminheader{
+    width:100%;
+    height: 120px;
+    border:1px solid black;
+}
+.admin{
+    position: relative;
+    width: 100%;
+    background-color:#2c2c2c;
+    text-align: center;
+}
+.admininfo{
+    position: absolute;
+    bottom:5px;
+    left: 35px;
+    color: #fff;
+}
+.adminIcon{
+    position: absolute;
+    bottom:0;
+    left: 10px;
+}
+.backmain{
+    display: block;
+    position: absolute;
+    top:5px;
+    left: 10px;
+    cursor: pointer;
+   
+}
+.backmain svg{
+    transition: all 700ms;
+    
+}

@@ -1,0 +1,124 @@
+
+.home-siteinfo{
+    position: relative;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 30px;
+}
+.home-siteinfo-card > h2{
+    display: block;
+    width: 100px;
+    overflow: hidden;
+    margin: 0;
+}
+.home-siteinfo-card {
+    border-radius: 8px;
+    position: relative;
+    width: 350px;
+    height: 700px;
+    background-color: #222222;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-color:rgba(0, 0, 0, 0.6) ;
+    border: 1px solid rgb(24, 24, 24);
+    transition: width 900ms ;
+}
+.home-siteinfo-card:nth-last-child(1){
+    background-position: center;
+}
+.selectCard{
+    width: 700px;
+}
+.widthSize{
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.home-siteinfo-card-content{
+    position: relative;
+    top:200px;
+    left: 30px;
+    width: 410px;
+    border-radius: 15px;
+    padding: 5px;
+    z-index: 0;
+    
+}
+.home-siteinfo-card-content > h2{
+    margin: 0 0 12px; 
+    font-size: 40px;
+    font-weight: 800;
+    overflow: hidden;
+    color: #fff;
+    z-index: 1;   
+}
+.home-siteinfo-card-content > span{ 
+    font-weight: 700;
+    overflow: hidden;
+    z-index: 1;
+}
+.home-siteinfo-card-content > span > pre{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5em;
+    overflow: hidden;
+    z-index: 1;
+}
+.home-siteinfo-card-back{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    border-radius: 15px;
+}
+.rightBtn{
+    background-color:  rgba(20, 20, 20, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 700ms ease-in-out;
+    border: 1px solid rgba(20, 20, 20, 0.6);
+    padding: 8px 5px;
+    cursor: pointer;
+}
+
+.rightBtn:hover{
+    border: 1px solid rgba(20, 20, 20, 1);
+    background-color:  rgba(20, 20, 20,1);
+    border-radius: 8px;
+}
+
+.rightBtn-set span{
+    display: inline-block;
+    transition: all 500ms;
+}
+.rightBtn:hover span:nth-child(1){
+    transition: all 200ms ease-in-out;
+    color:rgb(216, 41, 41);
+}
+.rightBtn:hover span:nth-child(2){
+    transition: all 300ms ease-in-out;
+    color:rgb(245, 148, 2);
+}
+.rightBtn:hover span:nth-child(3){
+    transition: all 400ms ease-in-out;
+    color:rgb(209, 255, 4);
+}
+.rightBtn:hover span:nth-child(4){
+    transition: all 500ms ease-in-out;
+    color:rgb(15, 241, 166);
+}
+.rightBtn-controller{
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+    z-index: 3;
+    transition: all 1000ms ease-in-out;
+}
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
